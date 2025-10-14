@@ -1,0 +1,62 @@
+ body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    #cards-container {
+      display: grid;
+      grid-template-columns: repeat(5, 120px);
+      grid-gap: 15px;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      width: 120px;
+      height: 160px;
+      border: 2px solid #333;
+      border-radius: 10px;
+      background-color: white;
+      cursor: pointer;
+      position: relative;
+      perspective: 1000px;
+    }
+
+    .card img {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      backface-visibility: hidden;
+      transition: transform 0.3s;
+    }
+
+    .flipped img {
+      transform: rotateY(180deg);
+    }
+
+    .matched {
+      border-color: green;
+      opacity: 0.8;
+    }
+
+    #startBtn {
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: none;
+      background-color: #0073e6;
+      color: white;
+      cursor: pointer;
+    }
+
+    #startBtn:hover {
+      background-color: #005bb5;
+    }
+
+    #status {
+      margin-top: 15px;
+      font-size: 18px;
+      font-weight: bold;
+    }
