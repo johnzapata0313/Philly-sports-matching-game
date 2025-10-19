@@ -1,22 +1,5 @@
-# ♠️ Week08 Bootcamp2019a Project: Matching Card Game
+Philly Sports Card Matching Game
 
-### Goal: Make a 10 card memory game - users must be able to select two cards and check if they are a match. If they are a match, they stay flipped. If not, they flip back over. Game is done when all cards are matched and flipped over. Example: http://www.fruit-burst.co.uk/fun-and-games/pairs-game 
+![F15409A4-651E-471E-B226-9D68B357D4B1](https://github.com/user-attachments/assets/3db5d2c8-8075-41ad-8ee5-26f8007a06d2)
 
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+This project is a simple memory card matching game built using HTML, CSS, and JavaScript. The game features ten cards—five pairs of matching images that are shuffled each round. Players flip two cards at a time to find matching pairs; matched cards stay up until all pairs are found. The interface uses a custom image of each Philly Sports team logo for each card. The project demonstrates DOM manipulation, event handling, and basic game logic.
